@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Welcome to the Login Page</Text>
+        <TouchableOpacity style={styles.button} >
+        <Text>LOGIN</Text>
+      </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );

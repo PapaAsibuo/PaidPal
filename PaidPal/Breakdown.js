@@ -4,8 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Balance Breakdown</Text>
-      <StatusBar style="auto" />
+      <TouchableOpacity style={styles.button} >
+        <Text>BALANCE BREAKDOWN</Text>
+      </TouchableOpacity>
     </View>
   );
 }

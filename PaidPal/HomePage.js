@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Welcome to the HomePage</Text>
+    <TouchableOpacity style={styles.button} >
+        <Text>HOMEPAGE</Text>
+      </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );
